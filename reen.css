@@ -1,0 +1,380 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;
+}
+.section{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+/* pre_section  */
+.pre_section{
+    background-color: #f5f7fa;
+    line-height: 40px;
+    border-bottom: 1px solid #e6e9ed;
+}
+
+.pre_section label{
+    font-size: 12px;
+    color: #506a85;
+}
+.pre_section label:last-child{
+    padding-left: 23px;
+}
+
+.float_left{
+    float: left;
+}
+
+.float_right{
+    float: right;
+}
+.pre_section ul{
+    margin: 0px;
+}
+.pre_section ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 23px;
+    
+}
+
+.pre_section a{
+    font-size: 12px;
+    color: #506a85;
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.header_section{
+    background-color: #fff;
+    margin: 36px 0px;
+    /*line-height: 112px;*/
+}
+
+.logo{
+    float: left;
+    
+}
+.top_menu ul{
+    padding: 0px 0px 0px 50px;
+    margin: 10px auto;
+}
+
+.top_menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.top_menu ul li a{
+    font-size: 15px;
+    color: #506a85;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 16px;
+    font-weight: bold;
+}
+
+.searchIcon{
+    size: 15px;
+    color: #506a85;
+}
+
+/* heroSection  */
+.heroSection{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/reen/hero.jpg");
+    background-color: #506a85;
+    padding: 300px 0px;
+}
+
+.heroSection h1{
+    font-size: 78px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+    padding: 0px 0px 32px 0px;
+    text-transform: uppercase;
+}
+
+.heroSection p{
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    color: #a3b1bf;
+    padding: 0px 0px 65px 0px;
+    margin: 0px auto;
+    /*line-height: 23px;*/
+}
+
+.btnLink{
+    width: 300px;
+    height: 63px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height:60px;
+    transition-duration: 0.3s;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.startNowBtn{
+    background-color: #00bc9c;
+    border-bottom: 2px solid #00a085;
+}
+
+a.startNowBtn:hover, a.inTouchBtn:hover{
+    background-color: #03947b;
+    border-bottom: 2px solid #026050;
+}
+
+/* gridSection section  */
+.gridSection{
+    margin: 130px 0px;
+}
+
+.gridSection h2 , .lastWork h2{
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 44px;
+    text-align: center;
+    color: #506a85;
+}
+
+.gridSection p, .lastWork p{
+    margin: 0px auto;
+    padding: 41px 0px;
+    font-size: 22px;
+    text-align: center;
+    color: #506a85;
+}
+
+.grid{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.subGrid{
+    width: 33.3%;
+    height: auto;
+    float: left;
+}
+
+.gridIcon{
+    float: left;
+    font-size: 52px;
+    color: #00bc9c;
+    width: 70px;
+    text-align: center;
+}
+.gridDesc{
+    padding: 0px 0px 0px 15px;
+    margin: 0px;
+    float: left;
+    width: calc(100% - 70px);
+    box-sizing: border-box;
+}
+.gridDesc h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #506a85;
+    margin: 0px 0px 33px 0px;
+    padding: 0px;
+}
+
+.gridDesc p{
+    font-size: 16px;
+    text-align: left;
+    color: #73879c;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  lastWork section */
+.lastWork{
+    padding: 130px 0px;
+    background-color: #f2f5f7;
+}
+
+.lastWork h4{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #506a85;
+}
+
+.lastWork p{
+    font-size: 14px;
+    color: #506a85;
+}
+
+.workRow{
+    width: 100%;
+    /*margin: 0px -15px;*/ 
+}
+
+.grid2{
+    width: 50%;
+    height: auto;
+    /*margin: 0px 15px;*/
+    box-sizing: border-box;
+    float: left;
+}
+
+.grid4{
+    width: 25%;
+    height: auto;
+    /*margin: 0px 15px;*/
+    box-sizing: border-box;
+    float: left;
+}
+
+
+
+.workImage{
+    background-color: #00bc9c;
+}
+
+.workDesc{
+    background-color: #FF0000;
+}
+
+
+.workDesc h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #506a85;
+    text-align: center;
+    padding: 35px 0px 0px 0px;
+    margin: 0px;
+}
+
+.workDesc p{
+    padding: 13px 0px 30px 0px;
+    margin: 0px;
+}
+
+/* workWith section */
+.workWith{
+    padding: 130px 0px;
+    background-color: #f2f5f7;
+}
+
+.workWith p{
+    width: 67%; 
+    margin: 0px auto;
+    padding: 41px 0px;
+    font-size: 22px;
+    text-align: center;
+    color: #506a85;
+}
+
+.inTouchBtn{
+    background-color: #00bc9c;
+    border-bottom: 2px solid #00a085;
+    width: 150px;
+}
+
+
+/*footer  */
+.footer{
+    background-color: #2f4052;
+    padding: 70px 0px;
+}
+.footer .footerBox{
+    padding: 5px 15px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.footer h5{
+    font-size: 16px;
+    color: #FFF;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px 0px 27px 0px;
+}
+
+.footer .footer_logo{
+    text-align: left;
+}
+
+.footer p{
+    font-size: 14px;
+    color: #FFF;
+    text-align: left;
+}
+
+.footer .p2{
+    text-align: left;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.footer .footerImg{
+    padding: 0px;
+    margin: 0px;
+}
+
+.footerForm{
+    width: 100%;
+    height: 40px;
+    background-color: #4e5c6c;
+    border-radius: 2px; 
+}
+
+.footerForm .footerBtn{
+    background-color: #00bc9c;
+    border-bottom: 2px solid #00a085;
+    font-size: 13px;
+    text-transform: uppercase;
+    width: 88px;
+    height: 28px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height:30px;
+    transition-duration: 0.3s;
+    text-align: center;
+    color: #FFF;
+    float: left;
+    margin: 5px;
+}
+
+
+.footerForm .footerTextField{
+    float: left;
+    width: calc(100% - 108px);
+    height: 80%;
+    opacity: 100;
+}
+
+/*  afterFooter */
+/*.afterFooter{
+    background-color: #283645;
+    padding: 70px 0px;
+}*/
